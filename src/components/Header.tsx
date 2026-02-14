@@ -1,6 +1,6 @@
 import { Search, ShoppingCart } from "lucide-react"
 import { Link, NavLink } from "react-router-dom"
-import Logo from '../assets/logo.png'
+import Logo from '@/assets/logo.png'
 
 export const Header = () => {
   return (

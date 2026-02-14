@@ -1,5 +1,5 @@
 import { FacebookIcon, InstagramIcon, TwitterIcon } from "lucide-react"
-import Logo from '../assets/logo2.png'
+import Logo from '@/assets/logo2.png'
 
 export const Footer = () => {
   return (
