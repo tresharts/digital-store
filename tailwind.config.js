@@ -21,7 +21,7 @@ export default {
         },
         "secondary-light": "#EFEFFF", 
 
-        // --- TONS DE CINZA E FUNDOS ---
+        //   --- TONS DE CINZA E FUNDOS ---
         "dark-gray": "#1F1F1F", // Fundo do Footer
         "dark-gray-2": "#474747", // Textos secundários escuros
         "dark-gray-3": "#666666", // Textos de apoio

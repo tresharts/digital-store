@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 export const PageLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col w-full bg-light-gray">
+    <div className="min-h-screen flex flex-col w-full ">
       <Header />
       <main className="flex-grow w-full">
         <Outlet />

@@ -3,12 +3,16 @@ import { PageLayout } from './layouts/PageLayout';
 import './App.css';
 import { HomePage } from './pages/HomePage';
 import { NotFolder } from './components/NotFolder/NotFolder';
+import { Produtos } from './pages/Produtos';
+import Categoria from './pages/Categorias';
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<PageLayout />}>
           <Route index element={<HomePage />} />
+          <Route path='/produtos' element={<Produtos/>}/>
+          <Route path='categorias' element={<Categoria/>}/>
         </Route>
         <Route path="*" element={<NotFolder />}/>
       </Routes>
