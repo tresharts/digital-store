@@ -39,11 +39,11 @@ export const Footer = () => {
             <div className="mt-3">
               <h3 className="text-lg font-semibold mb-8 text-white">Categorias</h3>
                 <ul className="flex flex-col gap-3 text-white font-normal text-base">
-                  <li><a href="#" className="hover:text-primary hover:underline transition-colors">Camisetas</a></li>
-                  <li><a href="#" className="hover:text-primary hover:underline transition-colors">Calças</a></li>
-                  <li><a href="#" className="hover:text-primary hover:underline transition-colors">Bonés</a></li>
-                  <li><a href="#" className="hover:text-primary hover:underline transition-colors">Headphones</a></li>
-                  <li><a href="#" className="hover:text-primary hover:underline transition-colors">Tênis</a></li>
+                  <li><a href="/categorias" className="hover:text-primary hover:underline transition-colors">Camisetas</a></li>
+                  <li><a href="/categorias" className="hover:text-primary hover:underline transition-colors">Calças</a></li>
+                  <li><a href="/categorias" className="hover:text-primary hover:underline transition-colors">Bonés</a></li>
+                  <li><a href="/categorias" className="hover:text-primary hover:underline transition-colors">Headphones</a></li>
+                  <li><a href="/categorias" className="hover:text-primary hover:underline transition-colors">Tênis</a></li>
                 </ul>
             </div>
 

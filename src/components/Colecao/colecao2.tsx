@@ -33,36 +33,36 @@ const Colexao2 = () => {
                                     '
                     >
                         <div className='flex flex-col justify-center items-center shrink-0 snap-center '>
-                            <Link to='/produtos'>
-                                <Tshirt className='w-10 fill-rose-600 '/>
+                            <Link to='/produtos' className='visited:fill-primary'>
+                                <Tshirt className='w-10 hover:fill-primary'/>
                             </Link>
                             <p className='mt-3 text-sm font-sans font-bold text-dark-gray-2'>Camisetas</p>
 
                             </div>
-                        <div className='flex flex-col justify-center items-center shrink-0 snap-center'>
-                            <Link to='/produtos'>
+                        <div className='flex flex-col justify-center items-center shrink-0 snap-center visited:fill-primary'>
+                            <Link to='/produtos' className='visited:fill-primary'>
                                 <Pants className='w-10 hover:fill-rose-500'/>
                             </Link>
-                            <span className='mt-3 text-sm font-bold text-dark-gray-2'>Camisetas</span>
+                            <span className='mt-3 text-sm font-bold text-dark-gray-2'>Calças</span>
                         </div>
                         <div className='flex flex-col justify-center items-center shrink-0 snap-center'>
-                            <Link to='/produtos'>
+                            <Link to='/produtos' className='visited:fill-primary'>
                                 <CapIcon className='w-10 hover:fill-rose-500'/>
                             </Link>
-                            <span className='mt-3 font-bold font-sans text-sm text-dark-gray-2'>Camisetas</span>
+                            <span className='mt-3 font-bold font-sans text-sm text-dark-gray-2'>Bonés</span>
                         </div>
                         <div className='flex flex-col justify-center items-center shrink-0 snap-center'>
-                            <Link to='/produtos'>
+                            <Link to='/produtos' className='visited:fill-primary'>
                                 <Headphone className='w-10 hover:fill-rose-500'/>
                             </Link>
-                            <span className='mt-3 font-bold text-sm text-dark-gray-2'>Camisetas</span>
+                            <span className='mt-3 font-bold text-sm text-dark-gray-2'>Fones de Ouvido</span>
                         </div>
 
                           <div className='flex flex-col justify-center items-center shrink-0 snap-center'>
-                            <Link to='/produtos'>
+                            <Link to='/produtos' className='visited:fill-primary'>
                                 <ShoeIcon className='w-10 hover:fill-rose-500'  />
                             </Link>
-                            <span className='mt-3 font-bold text-sm text-dark-gray-2'>Camisetas</span>
+                            <span className='mt-3 font-bold text-sm text-dark-gray-2'>Sapatos</span>
                         </div>
                     </div>
             </div>
