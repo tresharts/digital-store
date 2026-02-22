@@ -17,7 +17,7 @@ export const Header = () => {
       <div className="container order-1 ">  
         <div className="flex justify-between items-center relative w-full min-h-[60px] gap-2">
 
-          <div className=" flex justify-start items-center">
+          <div className=" flex justify-start items-center bg-red-500">
             <button onClick={handleMenu} className="md:hidden">
               <Menu size={24} className="text-dark-gray-2" />
             </button>
