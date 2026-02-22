@@ -27,7 +27,7 @@ export const Header = () => {
   
           <Pesquisa /> 
   
-           <div className="hidden md:flex justify-center items-center gap-6 ml-6">
+           <div className="sm:hidden hidden md:flex justify-center items-center gap-6 ml-6">
              <Authbutton />
            </div>
 
